@@ -1,6 +1,6 @@
 # RESTful-APIs-using-Express
  
- This is a simple RESTful web services with the help of the Express framework over Node.js environment that demonstrates CRUD (Create, Read, Update, Delete) operations with the validation of user inputs using Joi. REST (Representational State Transfer) is a standard for creating web services that can be consumed by various clients, including web browsers and mobile devices. Express is a fast and flexible framework for Node.js that provides robust features for web and mobile applications.
+ This is a simple RESTful web services with the help of the Express framework over Node.js environment and  MongoDB database that demonstrates CRUD (Create, Read, Update, Delete) operations with the validation of user inputs using Joi. REST (Representational State Transfer) is a standard for creating web services that can be consumed by various clients, including web browsers and mobile devices. Express is a fast and flexible framework for Node.js that provides robust features for web and mobile applications.
  
  
 ## Requirements
@@ -41,6 +41,8 @@ $ npm start
  * `PUT /api/genres/:id`: Update an existing genre by its id
  * `DELETE /api/genres/:id`: Delete an existing genre by its id
  * `GET /api/genres/:id`: Retrieve a specific genre by its id
+ 
+ The API uses Mongoose to interact with the MongoDB database.
  
 
 ## Validating User Inputs
